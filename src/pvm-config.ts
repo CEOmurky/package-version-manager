@@ -12,7 +12,10 @@ export class PvmConfig {
         const configPath = this.root + '/pvm.config.json';
         let configJson;
         if (fs.existsSync(configPath)) configJson = JSON.parse(fs.readFileSync(configPath, { encoding: 'utf8' }));
-        else configJson = JSON.parse(fs.readFileSync('../pvm.config.json', {encoding: 'utf8'}));
+        else configJson = {
+            question: "Choose update version type",
+            package_path: ""
+        }
         
         this.question = configJson['question'];
         this.packagePath = configJson['package_path'];
