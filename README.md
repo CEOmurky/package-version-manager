@@ -10,7 +10,7 @@ When i made angular library and build this package with angular@cli has not upda
 
 ```json
 "scripts": {
-    "build-with-version": "node ./node_modules/package-version-manager && ng build someProject"
+    "build-with-version": "pvm && ng build someProject"
 }
 ```
 

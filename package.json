@@ -1,6 +1,6 @@
 {
   "name": "package-version-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "control package.json in your project",
   "main": "dist/index.js",
   "devDependencies": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/CEOmurky/package-version-manager/issues"
   },
-  "homepage": "https://github.com/CEOmurky/package-version-manager#readme"
+  "homepage": "https://github.com/CEOmurky/package-version-manager#readme",
+  "bin": {
+    "pvm": "./bin/pvm"
+  }
 }
