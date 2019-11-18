@@ -1,6 +1,6 @@
 {
   "name": "package-version-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "control package.json in your project",
   "main": "dist/index.js",
   "devDependencies": {
@@ -10,7 +10,8 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "build": "tsc && pvm"
   },
   "repository": {
     "type": "git",

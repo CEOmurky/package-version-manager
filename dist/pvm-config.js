@@ -19,7 +19,10 @@ var PvmConfig = /** @class */ (function () {
         if (fs.existsSync(configPath))
             configJson = JSON.parse(fs.readFileSync(configPath, { encoding: 'utf8' }));
         else
-            configJson = JSON.parse(fs.readFileSync('../pvm.config.json', { encoding: 'utf8' }));
+            configJson = {
+                question: "Choose update version type",
+                package_path: ""
+            };
         this.question = configJson['question'];
         this.packagePath = configJson['package_path'];
     };
