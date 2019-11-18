@@ -1,0 +1,29 @@
+{
+  "name": "package-version-manager",
+  "version": "1.0.0",
+  "description": "control package.json in your project",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^12.12.8",
+    "@types/prompts": "^2.0.3",
+    "prompts": "^2.3.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CEOmurky/package-version-manager.git"
+  },
+  "keywords": [
+    "package version",
+    "version control"
+  ],
+  "author": "CEOmurky <vistaone1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CEOmurky/package-version-manager/issues"
+  },
+  "homepage": "https://github.com/CEOmurky/package-version-manager#readme"
+}
