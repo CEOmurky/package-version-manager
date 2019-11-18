@@ -31,10 +31,12 @@ create pvm.config.json and write "package_path"
 
 ### example
 
+```
 SomeProject
 └─role
     └─lal
         └─ package.json
+```
 
 ```json
 // pvm.config.json
