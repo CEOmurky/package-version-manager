@@ -1,10 +1,10 @@
 # package-version-manager PVM
 
-update package.json in version one step
+update package.json in version for one step
 
 ## use case
 
-When i made angular library and build this package with angular@cli has not update automatically package.json in version so i created `PVM`
+for auto update version
 
 ## example
 
